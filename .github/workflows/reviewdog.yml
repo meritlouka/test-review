@@ -1,6 +1,6 @@
 name: reviewdog
 on:
-  push:
+  pullrequest:
 permissions:
   contents: read
   pull-requests: write
