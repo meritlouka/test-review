@@ -41,7 +41,8 @@ gem "tzinfo-data", platforms: %i[ mingw mswin x64_mingw jruby ]
 
 # Reduces boot times through caching; required in config/boot.rb
 gem "bootsnap", require: false
-
+gem 'rubocop', require: false
+gem 'rubocop-rails', require: false
 # Use Sass to process CSS
 # gem "sassc-rails"
 
@@ -56,8 +57,6 @@ end
 group :development do
   # Use console on exceptions pages [https://github.com/rails/web-console]
   gem "web-console"
- gem 'rubocop', require: false
-  gem 'rubocop-rails', require: false
   # Add speed badges [https://github.com/MiniProfiler/rack-mini-profiler]
   # gem "rack-mini-profiler"
 
